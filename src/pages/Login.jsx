@@ -21,10 +21,9 @@ export default function Login() {
             <small className="small-text blue-text">Forgot password?</small>
             <div className="form-footer">
               <small className="small-text">New user? <span className="blue-text">Create account</span></small>
-              <Link to="/dashboard">
+              <Link to="/dashboard/workshop">
                 <button className="login-button">Sign In</button>
               </Link>
-              
             </div>
           </form>
         </div>

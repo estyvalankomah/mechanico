@@ -1,5 +1,5 @@
 import React from 'react';
-import { LineChart, Line, XAxis, YAxis, CartesianGrid, Legend, Tooltip, ResponsiveContainer } from 'recharts';
+import { LineChart, Line, XAxis, YAxis, CartesianGrid, Legend, ResponsiveContainer } from 'recharts';
 
 function Chart() {
 
@@ -94,7 +94,7 @@ function Chart() {
           <YAxis axisLine={false}  domain={[0, 3000]} tickCount={4.5} tickSize={0}/>
           <Legend layout="horizontal" verticalAlign="top"/>
           <Line type="monotone" dataKey="todoRequests" stroke="rgb(24, 122, 202)" dot={false} strokeWidth="2" activeDot={{fill:"#2e4355",stroke:"#8884d8",strokeWidth: 5,r:10}} />
-          <Line type="monotone" dataKey="completedJobs" stroke="2" dot={false} strokeWidth="2" activeDot={{fill:"#2e4355",stroke:"#8884d8",strokeWidth: 5,r:10}} />
+          <Line type="monotone" dataKey="completedJobs" stroke="rgb(10, 150, 29)" dot={false} strokeWidth="2" activeDot={{fill:"#2e4355",stroke:"#8884d8",strokeWidth: 5,r:10}} />
           <Line type="monotone" dataKey="missedRequests" stroke="rgb(190, 73, 73)" dot={false} strokeWidth="2" activeDot={{fill:"#2e4355",stroke:"#8884d8",strokeWidth: 5,r:10}} />
       </LineChart>
     </ResponsiveContainer>
